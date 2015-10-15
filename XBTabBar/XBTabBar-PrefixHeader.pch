@@ -1,0 +1,26 @@
+//
+//  XBTabBar-PrefixHeader.pch
+//  XBTabBar
+//
+//  Created by guoxb on 15/10/15.
+//  Copyright © 2015年 guoxb. All rights reserved.
+//
+
+#ifndef XBTabBar_PrefixHeader_pch
+#define XBTabBar_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIImage+Color.h"
+#import "XBTabBarController.h"
+
+/*
+ * Size
+ */
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define iOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0
+
+#endif /* XBTabBar_PrefixHeader_pch */
